@@ -1,0 +1,2 @@
+# Use this code to download and unzip your dataset via the command line on any *nix machine:
+curl -L "https://universe.roboflow.com/ds/MsGXv1LKIC?key=aS16rbvGMh" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
