@@ -1,7 +1,7 @@
 from ultralytics import RTDETR
 
-model = RTDETR('runs/train/exp/weights/best.pt') # select your model.pt path
-model.predict(source='dataset/images/test',
+model = RTDETR('best.pt') # select your model.pt path
+model.predict(source='dataset/rfd/test/images',
                 conf=0.25,
                 project='runs/detect',
                 name='exp',
